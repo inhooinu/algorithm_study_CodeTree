@@ -28,7 +28,7 @@ public class Main {
             for (int j=0; j<4; j++) {
                 sum += nums[i][j];
             }
-            System.out.print((double)sum/4 + " ");
+            System.out.printf("%.1f ", (double)sum/4);
         }
         System.out.println();
         
@@ -38,7 +38,7 @@ public class Main {
             for (int j=0; j<2; j++) {
                 sum += nums[j][i];
             }
-            System.out.print((double)sum/2 + " ");
+            System.out.printf("%.1f ", (double)sum/2);
         }
         System.out.println();
 
@@ -49,6 +49,6 @@ public class Main {
                 sum += nums[i][j];
             }
         }
-        System.out.println((double)sum/8);
+        System.out.printf("%.1f", (double)sum/8);
     }
 }
