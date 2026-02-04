@@ -14,7 +14,7 @@ public class Main {
             bottom[i] = sc.nextInt();
         }
 
-        int cnt = t%6;  // 밀어야하는 횟수
+        int cnt = t%(n*2);  // 밀어야하는 횟수
         for (int i=0; i<cnt; i++) {
             // top 밀기
             int tempTop = top[n-1];
